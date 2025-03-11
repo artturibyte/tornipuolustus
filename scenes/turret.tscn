@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://dpfo72gqlgdvg"]
+
+[ext_resource type="Texture2D" uid="uid://hjavd54iolxi" path="res://assets/LBlunderbuss.png" id="1_x3mc5"]
+
+[node name="Turret" type="Sprite2D"]
+position = Vector2(-2.00001, 2)
+scale = Vector2(2.4375, 1.72917)
+texture = ExtResource("1_x3mc5")
