@@ -1,12 +1,12 @@
 [gd_scene load_steps=3 format=3 uid="uid://fnwnqijexxqi"]
 
 [ext_resource type="PackedScene" uid="uid://iadxql3vcorg" path="res://scenes/enemy.tscn" id="1_uwrxv"]
-[ext_resource type="PackedScene" uid="uid://dpfo72gqlgdvg" path="res://scenes/turret.tscn" id="2_yqjtg"]
+[ext_resource type="PackedScene" uid="uid://dgv2bk5on2uqm" path="res://scenes/turret.tscn" id="2_yqjtg"]
 
 [node name="Game" type="Node2D"]
 
-[node name="Enemy" parent="." instance=ExtResource("1_uwrxv")]
-position = Vector2(73, 302)
+[node name="enemy1" parent="." instance=ExtResource("1_uwrxv")]
+position = Vector2(72, 220)
 
-[node name="Turret" parent="." instance=ExtResource("2_yqjtg")]
-position = Vector2(809, 509)
+[node name="turret1" parent="." instance=ExtResource("2_yqjtg")]
+position = Vector2(853, 518)
